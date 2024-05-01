@@ -4,7 +4,6 @@ import HomeImage from "public/home.jpg";
 export default function HomePage() {
   return (
     <div>
-      Home page
       <Hero
         image={HomeImage}
         alt="Car factory"

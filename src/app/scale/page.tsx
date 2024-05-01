@@ -4,7 +4,6 @@ import ScaleImage from "public/scale.jpg";
 export default function ScalePage() {
   return (
     <div>
-      Scale page
       <Hero
         image={ScaleImage}
         alt="Steel factory"

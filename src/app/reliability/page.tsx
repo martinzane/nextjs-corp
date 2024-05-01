@@ -4,7 +4,6 @@ import ReliabilityImage from "public/reliability.jpg";
 export default function ReliabilityPage() {
   return (
     <div>
-      Reliability page
       <Hero
         image={ReliabilityImage}
         alt="Welding"

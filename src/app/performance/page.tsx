@@ -4,7 +4,6 @@ import PerformanceImage from "public/performance.jpg";
 export default function PerformancePage() {
   return (
     <div>
-      Performance page
       <Hero
         image={PerformanceImage}
         alt="Welding"
