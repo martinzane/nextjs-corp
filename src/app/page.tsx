@@ -1,3 +1,15 @@
+import Hero from "@/components/hero";
+import HomeImage from "public/home.jpg";
+
 export default function HomePage() {
-  return <div>Home page</div>;
+  return (
+    <div>
+      Home page
+      <Hero
+        image={HomeImage}
+        alt="Car factory"
+        title="Professional Cloud Hostings"
+      />
+    </div>
+  );
 }
